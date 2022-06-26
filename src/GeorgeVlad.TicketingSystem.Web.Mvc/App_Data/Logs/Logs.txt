@@ -19571,3 +19571,225 @@ SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAba
 FROM [AbpBackgroundJobs] AS [a]
 WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
 ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:39:53,769 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:39:53,770 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:39:58,777 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:39:58,778 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:40:03,793 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:03,794 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:40:08,810 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:08,811 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:40:13,826 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:13,826 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:40:18,849 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:18,850 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:40:23,855 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:23,857 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:40:28,861 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:28,864 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:40:31,060 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:44312/ - -
+INFO  2022-06-26 13:40:31,062 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'GeorgeVlad.TicketingSystem.Web.Controllers.HomeController.Index (GeorgeVlad.TicketingSystem.Web.Mvc)'
+INFO  2022-06-26 13:40:31,062 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller GeorgeVlad.TicketingSystem.Web.Controllers.HomeController (GeorgeVlad.TicketingSystem.Web.Mvc).
+INFO  2022-06-26 13:40:31,064 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:31,067 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-26 13:40:31,077 [orker] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2022-06-26 13:40:31,080 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:31,082 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConnectionString], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EditionId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenancyName]
+FROM [AbpTenants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] = CAST(0 AS bit))) AND ([a].[Id] = @__p_0)
+INFO  2022-06-26 13:40:31,083 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:31,085 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE (((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] = CAST(0 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR ([a].[TenantId] = @__ef_filter__CurrentTenantId_2))) AND ([a].[Id] = @__p_0)
+INFO  2022-06-26 13:40:31,087 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:31,088 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConnectionString], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EditionId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenancyName]
+FROM [AbpTenants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] = CAST(0 AS bit))) AND ([a].[Id] = @__p_0)
+INFO  2022-06-26 13:40:31,089 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:31,089 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_2='?' (DbType = Int32), @__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE (((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[IsDeleted] = CAST(0 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR ([a].[TenantId] = @__ef_filter__CurrentTenantId_2))) AND ([a].[Id] = @__p_0)
+INFO  2022-06-26 13:40:31,093 [33   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 16.2132ms.
+INFO  2022-06-26 13:40:31,093 [33   ] c.Infrastructure.ControllerActionInvoker - Executed action GeorgeVlad.TicketingSystem.Web.Controllers.HomeController.Index (GeorgeVlad.TicketingSystem.Web.Mvc) in 30.7932ms
+INFO  2022-06-26 13:40:31,093 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'GeorgeVlad.TicketingSystem.Web.Controllers.HomeController.Index (GeorgeVlad.TicketingSystem.Web.Mvc)'
+INFO  2022-06-26 13:40:31,095 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:44312/ - - - 200 - text/html;+charset=utf-8 35.2083ms
+DEBUG 2022-06-26 13:40:31,099 [orker] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: F2XAVk68U6SWmdr32wlRDA
+INFO  2022-06-26 13:40:31,099 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2022-06-26 13:40:31,099 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:44312/signalr?id=F2XAVk68U6SWmdr32wlRDA - - - 101 - - 760236.9621ms
+INFO  2022-06-26 13:40:31,176 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:44312/AbpServiceProxies/GetAll?v=637918457469907374 - -
+INFO  2022-06-26 13:40:31,177 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:44312/AbpScripts/GetScripts?v=637918457469907374 - -
+INFO  2022-06-26 13:40:31,177 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:44312/view-resources/Views/Home/Index.js?v=OTrKnmoqV4qSLdcTMmwA_st_RNW7GbiooThNjyK8Hf4 - -
+INFO  2022-06-26 13:40:31,177 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:44312/_framework/aspnetcore-browser-refresh.js - -
+INFO  2022-06-26 13:40:31,178 [orker] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Home/Index.js was not modified
+INFO  2022-06-26 13:40:31,178 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:44312/view-resources/Views/Home/Index.js?v=OTrKnmoqV4qSLdcTMmwA_st_RNW7GbiooThNjyK8Hf4 - - - 304 - application/javascript 0.6146ms
+INFO  2022-06-26 13:40:31,178 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:44312/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 0.3867ms
+INFO  2022-06-26 13:40:31,179 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-06-26 13:40:31,180 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2022-06-26 13:40:31,181 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-06-26 13:40:31,182 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2022-06-26 13:40:31,182 [orker] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2022-06-26 13:40:31,182 [orker] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.597ms
+INFO  2022-06-26 13:40:31,182 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-06-26 13:40:31,182 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:44312/AbpServiceProxies/GetAll?v=637918457469907374 - - - 200 11941 application/x-javascript 6.5316ms
+INFO  2022-06-26 13:40:31,184 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:44312/_framework/aspnetcore-browser-refresh.js - -
+INFO  2022-06-26 13:40:31,185 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:44312/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 0.6461ms
+INFO  2022-06-26 13:40:31,189 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:44312/AbpServiceProxies/GetAll?v=637918457469907374 - -
+INFO  2022-06-26 13:40:31,189 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:31,192 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__CurrentTenantId_1='?' (DbType = Int32), @__userId_0='?' (DbType = Int64), @__tenantId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([a].[TenantId] = @__ef_filter__CurrentTenantId_1)) AND (([a].[UserId] = @__userId_0) AND ([a].[TenantId] = @__tenantId_1))
+INFO  2022-06-26 13:40:31,192 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-06-26 13:40:31,192 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2022-06-26 13:40:31,193 [orker] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2022-06-26 13:40:31,193 [orker] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2022-06-26 13:40:31,193 [orker] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 11.2116ms
+INFO  2022-06-26 13:40:31,193 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-06-26 13:40:31,193 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:44312/AbpScripts/GetScripts?v=637918457469907374 - - - 200 16761 application/x-javascript;+charset=utf-8 16.3094ms
+INFO  2022-06-26 13:40:31,193 [orker] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.1126ms
+INFO  2022-06-26 13:40:31,193 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2022-06-26 13:40:31,193 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:44312/AbpServiceProxies/GetAll?v=637918457469907374 - - - 200 11941 application/x-javascript 4.9353ms
+INFO  2022-06-26 13:40:31,219 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:44312/AbpScripts/GetScripts?v=637918457469907374 - -
+INFO  2022-06-26 13:40:31,221 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-06-26 13:40:31,221 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2022-06-26 13:40:31,226 [orker] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2022-06-26 13:40:31,227 [orker] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 5.1641ms
+INFO  2022-06-26 13:40:31,227 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2022-06-26 13:40:31,227 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:44312/AbpScripts/GetScripts?v=637918457469907374 - - - 200 16761 application/x-javascript;+charset=utf-8 7.8091ms
+INFO  2022-06-26 13:40:31,307 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:44312/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2022-06-26 13:40:31,309 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2022-06-26 13:40:31,310 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2022-06-26 13:40:31,310 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 POST http://localhost:44312/signalr/negotiate text/plain;charset=UTF-8 0 - 200 273 application/json 2.5177ms
+INFO  2022-06-26 13:40:31,318 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:44312/signalr?id=GTveqHAM8CYWZoofd8RPng - -
+INFO  2022-06-26 13:40:31,321 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2022-06-26 13:40:31,341 [orker] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"GTveqHAM8CYWZoofd8RPng","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2022-06-26T13:40:31.3409521+03:00","Properties":{}}
+DEBUG 2022-06-26 13:40:31,341 [orker] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: GTveqHAM8CYWZoofd8RPng
+INFO  2022-06-26 13:40:31,685 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:44312/api/services/app/Ticket/GetTicketList application/json -
+INFO  2022-06-26 13:40:31,687 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'GeorgeVlad.TicketingSystem.Tickets.TicketAppService.GetTicketListAsync (GeorgeVlad.TicketingSystem.Application)'
+INFO  2022-06-26 13:40:31,688 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetTicketList", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[GeorgeVlad.TicketingSystem.Tickets.Dto.TicketListDto]] GetTicketListAsync() on controller GeorgeVlad.TicketingSystem.Tickets.TicketAppService (GeorgeVlad.TicketingSystem.Application).
+INFO  2022-06-26 13:40:31,690 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:31,692 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [vsm].[Tickets] AS [t]
+WHERE [t].[Status] <> 2
+INFO  2022-06-26 13:40:31,693 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[IdTicket] AS [Id], [t].[Subject], [t].[TicketType], [t].[CustomerName], [t].[ServiceType], [t].[Status], [t].[CreationTime] AS [TicketCreationDate], [t].[TicketCloseDate]
+FROM [vsm].[Tickets] AS [t]
+WHERE [t].[Status] <> 2
+INFO  2022-06-26 13:40:31,695 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:31,697 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-26 13:40:31,709 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-06-26 13:40:31,709 [orker] c.Infrastructure.ControllerActionInvoker - Executed action GeorgeVlad.TicketingSystem.Tickets.TicketAppService.GetTicketListAsync (GeorgeVlad.TicketingSystem.Application) in 21.5725ms
+INFO  2022-06-26 13:40:31,709 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'GeorgeVlad.TicketingSystem.Tickets.TicketAppService.GetTicketListAsync (GeorgeVlad.TicketingSystem.Application)'
+INFO  2022-06-26 13:40:31,710 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:44312/api/services/app/Ticket/GetTicketList application/json - - 200 316 application/json;+charset=utf-8 24.8193ms
+INFO  2022-06-26 13:40:32,741 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:44312/Home/EditTicketModal/4 application/json 0
+INFO  2022-06-26 13:40:32,743 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'GeorgeVlad.TicketingSystem.Web.Controllers.HomeController.EditTicketModal (GeorgeVlad.TicketingSystem.Web.Mvc)'
+INFO  2022-06-26 13:40:32,743 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditTicketModal", controller = "Home", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] EditTicketModal(Int32) on controller GeorgeVlad.TicketingSystem.Web.Controllers.HomeController (GeorgeVlad.TicketingSystem.Web.Mvc).
+INFO  2022-06-26 13:40:32,745 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:32,747 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [t].[IdTicket], [t].[CreationTime], [t].[CustomerName], [t].[Description], [t].[Priority], [t].[ServiceType], [t].[Status], [t].[Subject], [t].[TicketCloseDate], [t].[TicketType]
+FROM [vsm].[Tickets] AS [t]
+WHERE [t].[IdTicket] = @__p_0
+INFO  2022-06-26 13:40:32,749 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:32,750 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [AbpAuditLogs]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+INFO  2022-06-26 13:40:32,761 [orker] c.ViewFeatures.PartialViewResultExecutor - Executing PartialViewResult, running view _EditModal.
+INFO  2022-06-26 13:40:32,764 [orker] c.ViewFeatures.PartialViewResultExecutor - Executed PartialViewResult - view _EditModal executed in 2.4225ms.
+INFO  2022-06-26 13:40:32,764 [orker] c.Infrastructure.ControllerActionInvoker - Executed action GeorgeVlad.TicketingSystem.Web.Controllers.HomeController.EditTicketModal (GeorgeVlad.TicketingSystem.Web.Mvc) in 20.9917ms
+INFO  2022-06-26 13:40:32,764 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'GeorgeVlad.TicketingSystem.Web.Controllers.HomeController.EditTicketModal (GeorgeVlad.TicketingSystem.Web.Mvc)'
+INFO  2022-06-26 13:40:32,764 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 POST http://localhost:44312/Home/EditTicketModal/4 application/json 0 - 200 - text/html;+charset=utf-8 23.5499ms
+INFO  2022-06-26 13:40:33,869 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:33,870 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:40:38,886 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:38,886 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:40:43,891 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:43,891 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:40:48,910 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:48,911 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:40:53,924 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:53,925 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:40:58,938 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:40:58,939 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2022-06-26 13:41:03,941 [orker] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.0 initialized 'TicketingSystemDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+INFO  2022-06-26 13:41:03,942 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE ([a].[IsAbandoned] = CAST(0 AS bit)) AND ([a].[NextTryTime] <= @__Now_0)
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]

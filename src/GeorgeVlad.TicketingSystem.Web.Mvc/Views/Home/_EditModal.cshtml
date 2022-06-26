@@ -11,7 +11,7 @@
         <div class="form-group row required">
             <label class="col-md-3 col-form-label" asp-for="TicketType">@L("TicketType")</label>
             <div class="col-md-9">
-                <select id="TicketTypeSelect" class="form-control" required="" asp-for="TicketType" asp-items="@Html.GetEnumSelectList<TicketType>()">
+                <select id="TicketTypeSelect" class="form-control" required="" readonly="readonly" asp-for="TicketType" asp-items="@Html.GetEnumSelectList<TicketType>()">
                 </select>
             </div>
         </div>
@@ -30,14 +30,14 @@
         <div class="form-group row required">
             <label class="col-md-3 col-form-label" asp-for="ServiceType">@L("ServiceType")</label>
             <div class="col-md-9">
-                <select id="ServiceTypeSelect" class="form-control" required="" asp-for="ServiceType" asp-items="@Html.GetEnumSelectList<ServiceType>()">
+                <select id="ServiceTypeSelect" class="form-control" required="" readonly="readonly" asp-for="ServiceType" asp-items="@Html.GetEnumSelectList<ServiceType>()">
                 </select>
             </div>
         </div>
         <div class="form-group row required">
             <label class="col-md-3 col-form-label" asp-for="Priority">@L("Priority")</label>
             <div class="col-md-9">
-                <select id="PrioritySelect" class="form-control" required="" asp-for="Priority" asp-items="@Html.GetEnumSelectList<PriorityType>()">
+                <select id="PrioritySelect" class="form-control" readonly="readonly" required="" asp-for="Priority" asp-items="@Html.GetEnumSelectList<PriorityType>()">
                 </select>
             </div>
         </div>

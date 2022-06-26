@@ -133,7 +133,7 @@ public class TicketAppService : TicketingSystemAppServiceBase, ITicketAppService
 
         //doar taskul activ poate fi doar inchis
         if (ticket.Status == StatusType.Active && status != StatusType.Closed)
-            throw new UserFriendlyException(L("NotAuthorized"));
+            throw new UserFriendlyException(L("The ticket status is already Active"));
 
         if (status == StatusType.Closed)
         {
