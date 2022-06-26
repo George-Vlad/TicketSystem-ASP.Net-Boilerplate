@@ -1,0 +1,57 @@
+﻿@model GeorgeVlad.TicketingSystem.Tickets.Dto.CreateTicketDto
+@using GeorgeVlad.TicketingSystem.Web.Models.Common.Modals
+@using GeorgeVlad.TicketingSystem.Tickets
+@{
+    Layout = null;
+}
+<div class="modal fade" id="TicketCreateModal" tabindex="-1" role="dialog" aria-labelledby="TicketCreateModalLabel" data-backdrop="static">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            @await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("CreateNewTicket")))
+            <form name="ticketCreateForm" role="form" class="form-horizontal">
+                <div class="modal-body">
+                    <div class="form-group row required">
+                        <label class="col-md-3 col-form-label" asp-for="TicketType">@L("TicketType")</label>
+                        <div class="col-md-9">
+                            <select id="TicketTypeSelect" class="form-control" required="" asp-for="TicketType" asp-items="@Html.GetEnumSelectList<TicketType>()">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row required">
+                        <label class="col-md-3 col-form-label" asp-for="Subject">@L("Subject")</label>
+                        <div class="col-md-9">
+                            <input type="text" asp-for="Subject" class="form-control" required="">
+                        </div>
+                    </div>
+                    <div class="form-group row required">
+                        <label class="col-md-3 col-form-label" asp-for="CustomerName">@L("CustomerName")</label>
+                        <div class="col-md-9">
+                            <input type="text" asp-for="CustomerName" class="form-control" required="" maxlength="50" minlength="2">
+                        </div>
+                    </div>
+                    <div class="form-group row required">
+                        <label class="col-md-3 col-form-label" asp-for="ServiceType">@L("ServiceType")</label>
+                        <div class="col-md-9">
+                            <select id="ServiceTypeSelect" class="form-control" required="" asp-for="ServiceType" asp-items="@Html.GetEnumSelectList<ServiceType>()">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row required">
+                        <label class="col-md-3 col-form-label" asp-for="Priority">@L("Priority")</label>
+                        <div class="col-md-9">
+                            <select id="PrioritySelect" class="form-control" required="" asp-for="Priority" asp-items="@Html.GetEnumSelectList<PriorityType>()">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label" asp-for="Description">@L("Description")</label>
+                        <div class="col-md-9">
+                            <textarea class="form-control" asp-for="Description" required=""></textarea>
+                        </div>
+                    </div>
+                </div>
+                @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+            </form>
+        </div>
+    </div>
+</div>
