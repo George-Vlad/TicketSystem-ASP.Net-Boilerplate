@@ -33,7 +33,7 @@ namespace GeorgeVlad.TicketingSystem.Tests
             Configuration.UnitOfWork.IsTransactional = false;
 
             // Disable static mapper usage since it breaks unit tests (see https://github.com/aspnetboilerplate/aspnetboilerplate/issues/2052)
-            Configuration.Modules.AbpAutoMapper().UseStaticMapper = false;
+            //Configuration.Modules.AbpAutoMapper().UseStaticMapper = false;
 
             Configuration.BackgroundJobs.IsJobExecutionEnabled = false;
 
@@ -43,6 +43,7 @@ namespace GeorgeVlad.TicketingSystem.Tests
             RegisterFakeService<AbpZeroDbMigrator<TicketingSystemDbContext>>();
 
             Configuration.ReplaceService<IEmailSender, NullEmailSender>(DependencyLifeStyle.Transient);
+
         }
 
         public override void Initialize()

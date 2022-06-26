@@ -4,6 +4,7 @@ using GeorgeVlad.TicketingSystem.Authorization.Roles;
 using GeorgeVlad.TicketingSystem.Authorization.Users;
 using GeorgeVlad.TicketingSystem.MultiTenancy;
 using GeorgeVlad.TicketingSystem.Tickets;
+using System.Data.Common;
 
 namespace GeorgeVlad.TicketingSystem.EntityFrameworkCore
 {

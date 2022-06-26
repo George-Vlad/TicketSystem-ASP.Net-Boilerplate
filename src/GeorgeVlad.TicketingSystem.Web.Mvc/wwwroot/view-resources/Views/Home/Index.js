@@ -44,6 +44,7 @@
             {
                 targets: 1,
                 sortable: false,
+                className: "text-center",
                 render: function (data, type, row, meta) {
                     return row.subject;
 
@@ -52,17 +53,19 @@
             {
                 targets: 2,
                 sortable: false,
+                className: "text-center",
                 render: function (data, type, row, meta) {
                     if (row.ticketType == 0) {
-                        return "Task";
+                        return '<small class="badge badge-pill badge-warning">Task<i class="fas fa-tasks pl-1"></i></small>';
                     }
                     else
-                        return "Bug";
+                        return '<small class="badge badge-pill badge-danger">Bug<i class="fas fa-bug pl-1"></i></small>';
                 }
             },
             {
                 targets: 3,
                 sortable: false,
+                className: "text-center",
                 render: function (data, type, row, meta) {
                     return row.customerName;
                 }
@@ -70,6 +73,7 @@
             {
                 targets: 4,
                 sortable: false,
+                className: "text-center",
                 render: function (data, type, row, meta) {
                     if (row.serviceType == 0) {
                         return "Design";
@@ -87,11 +91,12 @@
             {
                 targets: 5,
                 sortable: false,
+                className: "text-center",
                 render: function (data, type, row, meta) {
                     if (row.status == 0) {
-                        return "New";
+                        return '<i class="fas fa-circle text-secondary"></i> New';
                     } else if (row.status == 1) {
-                        return "Active";
+                        return '<i class="fas fa-circle text-primary"></i> Active';
                     } else {
                         return "Closed";
                     }
